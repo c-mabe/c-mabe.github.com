@@ -1,0 +1,136 @@
+
+body {
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin-top: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: seashell;
+}
+
+/* Header */
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav {
+    padding-right: 20px;
+}
+
+span {
+    padding: 20px 10px;
+    flex-grow: 1;
+}
+
+.main {
+    padding-top: 69px;
+}
+
+/*Mission Section*/
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(./Images/img-mission-background.jpg);
+    align-items: center;
+    display: flex;
+    
+}
+
+.mission-statement {
+    width: 100%;
+    background-color: black;
+}
+
+
+/* Tea of the Month */
+
+.featured-container {
+    width: 100%;
+}
+
+.item-container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.item-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.item-container h4 {
+    margin-top: 10px;
+}
+
+/* Location Section */
+
+#Locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url(./Images/img-locations-background.jpg);
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#Locations h2 {
+    margin-bottom: 15px;
+
+}
+
+.location {
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.location-info {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*Contact Section */
+.contact {
+    width : 100%;
+    height: 200px;
+}
+
+/*Footer Section */
+.footer {
+    text-align: left;
+    margin-left: 20px;
+}
