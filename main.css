@@ -131,7 +131,7 @@ header p {
 
 
 #theatreimg {
-  background-image: url("../images/theatre_audience.jpeg");
+  background-image: url("./Images/theatre_audience.jpeg");
   background-size: 400px;
   height: 200px;
   background-position: center;
