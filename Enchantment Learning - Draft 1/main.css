@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  font-family: palatino, arial;
+}
+body {
+  background-color: #f9f9f9;
+}
+
+/* Old Nav
+header .row,
+footer .row {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  
+}
+header p {
+  padding: 5px 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: #CDD9FF;
+  border-right-style: dotted;
+  border-left-style: dotted;
+  border-width: 2px;
+  text-align: center;
+}
+
+.navbar li {
+  display:inline;
+  float:left;
+  
+  padding-top: 10px;
+}
+
+.navbar li:last-child {
+  border:none;
+}
+
+.navbar li a {
+  display:block;
+  padding: 8px;
+  background-color: #dddddd;
+  padding: 14px, 16px;
+  text-decoration: none;
+  color: Green;
+  border-right: 2px solid white;
+}
+
+.navbar li a:hover {
+  background-color:#ccd9ff;
+  color:black;
+}
+.navbar .active {
+  background-color:green;
+  color:black;
+}
+
+*/
+
+.navbar a{
+  font-family:"luminari" !important;
+  font-size: 18px !important;
+}
+
+.nav a:hover{
+  background-color: #d9d9d9 !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+
+
+.jumbotron {
+  background-image: url("images/banner.jpg");
+  background-size: 300px 100px;
+  background-position: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.jumbotron h1 {
+  color: white;
+  font-family: "luminari";
+  
+  margin-top: 0px;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+.jumbotron h2 {
+  color: white;
+  font-family: "luminari";
+  
+  margin-bottom: 0px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.jumbotron h3 {
+  color: white;
+  font-family: "luminari";
+}
+.title {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.info {
+  border: solid thin;
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  background-color: EEFAFF;
+  margin: 10px;
+  height: 200px;
+  min-height: 200px;
+  
+}
+.services p {
+  color: Blue;
+  font-family: "bradley hand";
+  font-weight: 700;
+  font-size: 20px;
+  background-color: white;
+  Opacity: 75%; 
+  margin-top: 100px;
+}
+
+
+#theatreimg {
+  background-image: url("images/theatre_audience.jpeg");
+  background-size: 400px;
+  height: 200px;
+  background-position: center;
+}
+#musicimg {
+  background-image: url("images/baby_guitar.jpg");
+  
+  height: 200px;
+  background-position: center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+#childprogimg {
+  background-image: url("images/crayons.jpg");
+  height: 200px;
+  background-position: center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+#privatelessons {
+  background-image: url("images/singing_lessons.jpg");
+  
+  height: 175px;
+  background-position: center;
+  background-size: 400px 200px;
+  
+  background-repeat: no-repeat;
+}
+#birthdayparty {
+  background-image: url("images/happy_birthday.jpg");
+  height: 200px;
+  background-position: center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+#enquire {
+  background-image: url("images/email.png");
+  height: 200px;
+  background-position: center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  
+}
+
+/* Team Page */
+.teambg {
+  background-color: #A6BDFF;
+  max-width:500px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.team h4 {
+  font-weight: 700;
+  font-style: underline;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+
+
+.teamphoto {
+  margin: 0 auto;
+  max-width: 400px;
+  align-items: center;
+}
+
+.teamphoto img{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 380px;
+  display: block;
+  
+}
+
+.teamblurb {
+  margin: 0 auto;
+  max-width: 400px;
+  
+  
+}
+
+.team p {
+  line-spacing: 1.5;
+  text-align: justify;
+  max-width: 400px;
+  margin-top: 15px;
+  border-bottom: dotted;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*Enchantment Theatre */
+
+.theatrebg {
+  background-color: #F9FFF5;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+.showcontainer {
+  padding-top: 2px;
+  padding-left: 10px;
+  overflow: auto;
+  border-bottom: dotted 2px;
+  padding-bottom: 5px;
+}
+
+.showart {
+  margin-left: 20px;
+  margin-right: 10px;
+  float: left;
+  max-width: 300px;
+  margin-bottom: 20px;
+  background-image: url(images/TLP.jpg);
+  background-size: contain;
+}
+
+.tlpart {
+  background-image: url(images/TLP.jpg);
+  background-size: contain;
+}
+
+.showdescription {
+  
+ 
+  border-top: solid thin;
+  border-bottom: solid thin;
+  margin-left: 450px;
+}
+
+.showdescription p{
+  padding-top: 5px;
+  line-height: 2;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: black;
+}
