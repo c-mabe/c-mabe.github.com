@@ -81,7 +81,7 @@ header p {
   background-position: center;
   margin-top: 0;
   margin-bottom: 0;
-  
+  font-family: 'Permanent Marker', cursive;
 }
 .jumbotron h1 {
   
@@ -102,7 +102,7 @@ header p {
 }
 .jumbotron h3 {
   color: white;
-  font-family: 'Permanent Marker', cursive;
+  
 }
 .title {
   font-family: 'Permanent Marker', cursive;
