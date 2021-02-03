@@ -76,7 +76,7 @@ header p {
 
 
 .jumbotron {
-  background-image: url("images/banner.jpg");
+  background-image: url("./images/banner.jpg");
   background-size: 300px 100px;
   background-position: center;
   margin-top: 0;
@@ -131,13 +131,13 @@ header p {
 
 
 #theatreimg {
-  background-image: url("images/theatre_audience.jpeg");
+  background-image: url("./images/theatre_audience.jpeg");
   background-size: 400px;
   height: 200px;
   background-position: center;
 }
 #musicimg {
-  background-image: url("images/baby_guitar.jpg");
+  background-image: url("./images/baby_guitar.jpg");
   
   height: 200px;
   background-position: center;
@@ -145,14 +145,14 @@ header p {
   background-repeat: no-repeat;
 }
 #childprogimg {
-  background-image: url("images/crayons.jpg");
+  background-image: url("./images/crayons.jpg");
   height: 200px;
   background-position: center;
   background-size: 400px;
   background-repeat: no-repeat;
 }
 #privatelessons {
-  background-image: url("images/singing_lessons.jpg");
+  background-image: url("./images/singing_lessons.jpg");
   
   height: 175px;
   background-position: center;
@@ -161,14 +161,14 @@ header p {
   background-repeat: no-repeat;
 }
 #birthdayparty {
-  background-image: url("images/happy_birthday.jpg");
+  background-image: url("./images/happy_birthday.jpg");
   height: 200px;
   background-position: center;
   background-size: 400px;
   background-repeat: no-repeat;
 }
 #enquire {
-  background-image: url("images/email.png");
+  background-image: url("./images/email.png");
   height: 200px;
   background-position: center;
   background-size: 400px;
@@ -250,12 +250,12 @@ header p {
   float: left;
   max-width: 300px;
   margin-bottom: 20px;
-  background-image: url(images/TLP.jpg);
+  background-image: url(./images/TLP.jpg);
   background-size: contain;
 }
 
 .tlpart {
-  background-image: url(images/TLP.jpg);
+  background-image: url(./images/TLP.jpg);
   background-size: contain;
 }
 
