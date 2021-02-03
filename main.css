@@ -61,7 +61,7 @@ header p {
 */
 
 .navbar a{
-  font-family:"luminari" !important;
+  font-family: 'Permanent Marker', cursive !important;
   font-size: 18px !important;
 }
 
@@ -85,7 +85,7 @@ header p {
 }
 .jumbotron h1 {
   color: white;
-  font-family: "luminari";
+  font-family: 'Permanent Marker', cursive;
   
   margin-top: 0px;
   max-width: 800px;
@@ -94,7 +94,7 @@ header p {
 }
 .jumbotron h2 {
   color: white;
-  font-family: "luminari";
+  font-family: 'Permanent Marker', cursive;
   
   margin-bottom: 0px;
   max-width: 800px;
