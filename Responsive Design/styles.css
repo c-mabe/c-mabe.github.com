@@ -1,0 +1,157 @@
+/* Colours:
+#6495ED
+#E37562
+#4B80E3
+#AEE334
+#76962A
+
+/*
+
+/*Site wide */
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: cornsilk;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.navbar {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: inherit;
+}
+
+
+/* Header */
+
+.hero {
+    background-image: url(Images/wine-glasses.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height:500px;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.grid-item {
+    grid-area: 3 / 5 / span 4 / span 3;
+    background-color: #E37562;
+    
+}
+
+.grid-item h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+.main-background {
+    width: 100%;
+    background-color:cornsilk;
+    margin-bottom: 0px;
+}
+
+
+/* About Us */
+.about {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Merlot */
+
+.merlot-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    margin:0 auto;
+    background-color: #76962A;
+}
+
+.wine-img {
+    width: 50%;
+    margin: 0 10px 0 10px;
+}
+
+.wine-img img {
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+.wine-info {
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 50%;
+}
+
+/* Pinot Noir */
+
+.pinot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin:0 auto;
+    background-color: #AEE334;
+}
+
+/* Cab Sav */
+
+.cab-sav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin:0 auto;
+    background-color: #76962A;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 2rem;
+    background-color: cornflowerblue;
+    margin-top: -20px;
+}
+
+.footer h4 {
+    margin-left: 20px;
+    padding-top: 5px;
+}
