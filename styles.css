@@ -1,0 +1,253 @@
+/*Global Styles */
+
+body {
+    background-color: #CCCCCC;
+    font-family: 'Quattrocento', serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Quattrocento', serif;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.section-container {
+    width: 100%;
+    
+}
+
+
+/* Navigation Styles */
+
+.navbar {
+    background-color: #143D55;
+    color: white;
+    width: 95%;
+    margin-left: 2.5%;
+    position: fixed;
+    z-index: 1;
+}
+
+
+/* Hero Styles */
+
+
+.splash {
+    background: url(./Images/clement-helardot-95YRwf6CNw8-unsplash.jpg)  center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top:56px;
+   }
+
+.header-box {
+       text-align: center;
+       color: #287AA9;
+       }
+
+.header-box img {
+    height:200px;
+    width: 200px;
+}
+
+
+/* Project Section Styles */
+
+.project-header {
+    background-color: #96AD3E;
+    width: 95%;
+    margin-left: 2.5%;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.projects {
+    background-color: #96AD3E;
+    width: 95%;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 2.5%;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+hr {
+    height:30px;
+    color:#143D55;
+    background: #143D55;
+}
+
+#title {
+    align-self: start;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.project-info {
+    max-width: 800px;
+    text-align: center;
+    margin: 10px 10px 10px;
+}
+
+.project-info img {
+    max-width: 100%;
+}
+
+
+#tea-blurb{
+    display: none;
+}
+
+#enchantment-blurb {
+    display: none;
+}
+
+#twc-blurb {
+    display: none;
+}
+
+.tea-blurb:hover, #tea:hover {
+    display: inline;
+}
+
+
+#twc img {
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+
+/* About Section */
+
+.about-section {
+    background-color: #287AA9;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.about-section a {
+    color: #96AD3E;
+}
+
+.tech-logos {
+    display: inline-flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.tech-logos img {
+    max-height: 60px;
+    margin: 0 20px 10px 20px;
+}
+
+
+/*Contacts Page */
+#con-nav {
+    position:relative;
+}
+
+.contact {
+    background-color: #96AD3E;
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-left: 2.5%;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+
+#contact h1 {
+    background-color: #96AD3E;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.contact-container {
+    display:flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.contact img {
+    height: 200px;
+    width: 200px;
+}
+
+.contact-form {
+    background-color:#287AA9;
+    border-radius: 10%;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin: 20px 20px 20px 20px;
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #143D55;
+    height: 3rem;
+    border-radius: 5%;
+    width: 100%;
+    justify-self: center;
+    margin: 0 auto;
+    color:aqua;
+}
+
+input[type=submit]:hover {
+    background-color:#287AA9;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #143D55;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 3rem;
+}
+
+footer h5{
+    color: white;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+/* Breakpoints */
+
+@media only screen and (max-width: 600px) {
+    .splash {
+        justify-content: center;
+    }
+    #empty {
+        display: none;
+    }
+  }
