@@ -1,7 +1,7 @@
 /*Global Styles */
 
 body {
-    background-color: #CCCCCC;
+    background-color: #DAD6D6;
     font-family: 'Quattrocento', serif;
     font-size: 16px;
 }
@@ -65,7 +65,7 @@ h3 {
 /* Project Section Styles */
 
 .project-header {
-    background-color: #96AD3E;
+    background-color:#FE9000;
     width: 95%;
     margin-left: 2.5%;
     text-decoration: underline;
@@ -73,7 +73,7 @@ h3 {
 }
 
 .projects {
-    background-color: #96AD3E;
+    background-color:#FE9000;
     width: 95%;
     display: inline-flex;
     justify-content: center;
@@ -132,9 +132,10 @@ hr {
 /* About Section */
 
 .about-section {
-    background-color: #287AA9;
+    background-color: #AD343E;
     width: 95%;
     margin-left: 2.5%;
+    color: white;
 }
 
 .about-section a {
