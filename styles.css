@@ -73,7 +73,8 @@ h3 {
 }
 
 .projects {
-    background-color:#FE9000;
+    /*background-color:#FE9000;*/
+    background-image: linear-gradient(to right, #AD343E, #FE9000);
     width: 95%;
     display: inline-flex;
     justify-content: center;
@@ -81,6 +82,9 @@ h3 {
     flex-flow: column wrap;
     align-items: center;
     padding-top: 2rem;
+    color: white;
+    padding-bottom: 3rem;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -132,10 +136,14 @@ hr {
 /* About Section */
 
 .about-section {
-    background-color: #AD343E;
+    /*background-color: #AD343E; */
+    background-image: linear-gradient(to left, #00C0F5, #17BEBB);
     width: 95%;
     margin-left: 2.5%;
     color: white;
+    padding-top: 25px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 .about-section a {
