@@ -1,5 +1,9 @@
 /*Global Styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #DAD6D6;
     font-family: 'Quattrocento', serif;
@@ -49,6 +53,7 @@ h3 {
     align-items: center;
     width: 100%;
     margin-top:56px;
+    margin-bottom: 20px;
    }
 
 .header-box {
@@ -110,27 +115,72 @@ hr {
 }
 
 
-#tea-blurb{
-    display: none;
+.project-container {
+    background-image: linear-gradient(to right, #AD343E, #FE9000);
+    display:flex;
+    justify-content: flex-start;
+    width: 95%;
+    margin-left: 2.5%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    opacity: 1;
+    
+}
+@media (prefers-reduced-motion: no-preference) {
+    .fadein {
+        animation-name: opacity;
+        animation-duration: 1.5s; 
+        animation-timing-function: ease-in; 
+        animation-delay: 0s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+        animation-play-state: running;
+    }
 }
 
-#enchantment-blurb {
-    display: none;
+.project-blurb {
+    width: 25%;
+    margin-left: 5%;
+    color: white;
 }
 
-#twc-blurb {
-    display: none;
+.project-image {
+    width: 75%;
+    margin-right: 5%;
 }
 
-.tea-blurb:hover, #tea:hover {
-    display: inline;
+.project-image img {
+    width: 100%;
 }
 
-
-#twc img {
-    filter: blur(8px);
-  -webkit-filter: blur(8px);
+#reverse {
+    flex-direction: row-reverse;
 }
+
+#reverse .project-image {
+    width: 75%;
+    margin-left: 5%;
+}
+
+#reverse .project-image img {
+    width: 100%;
+}
+
+#reverse .project-blurb {
+    width: 25%;
+    margin-right: 5%;
+    color: white;
+}
+
+@keyframes opacity {
+    0% {
+      opacity: 0;;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 
 
 /* About Section */
@@ -267,6 +317,9 @@ and (orientation: portrait) {
         width: 2em;
         height: 2em;
     }
+    .project-container {
+        flex-direction: column;
+    }
   }
 
   @media only screen 
@@ -281,4 +334,41 @@ and (orientation: portrait) {
           width: 2em;
           height: 2em;
       }
+      .project-container {
+        flex-direction: column;
+        align-items: center;
     }
+    .project-blurb {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    .project-image {
+        width: 95%;
+        margin-right: 2.5%;
+        margin-left:2.5%
+    }
+    
+    .project-image img {
+        max-width: 100%;
+    }
+
+    #reverse {
+        flex-direction: column;
+    }
+
+    #reverse .project-blurb {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    #reverse .project-image {
+        width: 95%;
+        margin-right: 2.5%;
+        margin-left:2.5%
+    }
+    
+     #reverse .project-image img {
+        max-width: 100%;
+    }
+  }
