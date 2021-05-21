@@ -99,16 +99,21 @@ h1, h2, h3, h4, h5, h6 {
       width: 95%;
       margin-left: 2.5%;
       align-content: center;
+      background-color: #909590;
   }
 
   .fact-box {
       text-align: center;
       background-color: #909590;
       padding: 20px;
-      border-radius: 10%;
       width: 25%;
       height: 15rem;
       padding-top: 75px;
+      border-right: white 2px solid;
+  }
+
+  .fact-box:last-child {
+      border-right: 0px;
   }
 
 
@@ -127,12 +132,4 @@ h1, h2, h3, h4, h5, h6 {
 
 
   /* Breakpoint mobile 600px */
-
-  @include media-breakpoint-down(sm) {
-      #factSection {
-          display: flex;
-          flex-direction: column;
-          background-color: aqua;
-      }
-  }
 
