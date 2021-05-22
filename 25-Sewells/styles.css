@@ -15,11 +15,9 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-.navbar {
-    padding-left: 10px;
+#hidden {
+    visibility: hidden;
 }
-
-
 
 .isFlexContainer {
     display:inline-flex;
@@ -33,6 +31,20 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+/* Navigation */
+
+.navbar {
+    padding-left: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5rem;
+}
+
+
+/* Splash section */
+
 .splash {
     background-image: url(Images/Picture1.png);
     width: 100%;
@@ -42,7 +54,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .splash h1 {
-    color: #537A5A;
+    color: #5E2BFF;
+    font-family: 'Marck Script', cursive;
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+
+.splash h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 3rem;
+    color: #5E2BFF;
+    margin-bottom: 15px;
 }
 
 .splash-box {
@@ -72,9 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
 }
 
-#hidden {
-    visibility: hidden;
-}
+/* Animations */
 
 @media (prefers-reduced-motion: no-preference) {
     .fadein {
@@ -96,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 
+  /* Facts Sections */
   .facts {
       width: 95%;
       margin-left: 2.5%;
@@ -118,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
       border-right: 0px;
   }
 
-
+/* About the Project */
   .about-box {
       width: 90%;
   }
@@ -131,6 +154,9 @@ h1, h2, h3, h4, h5, h6 {
   .map {
       border: 2px dashed red;
   }
+
+/* Contact Form */
+
 
 
   /* Breakpoint mobile 600px */
