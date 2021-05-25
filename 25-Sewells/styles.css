@@ -209,8 +209,10 @@ and (orientation: portrait) {
         flex-direction: column;
     }
 
-    .splash-box {
-        margin-top: 50px;
+    
+
+    #hidden {
+        display: none;
     }
 
     .fact-box {
