@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Poiret One', cursive;
     color: white;
 }
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Poiret One', cursive;
     font-size: 1.5rem;
 }
 
@@ -51,11 +51,11 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     min-height: 40em;
     margin-bottom: 20px;
+    font-family: 'Poiret One', cursive;
 }
 
 .splash h1 {
-    color: #5E2BFF;
-    font-family: 'Marck Script', cursive;
+    color: black;
     font-size: 5rem;
     font-weight: 700;
     padding: 0px;
@@ -63,9 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .splash h2 {
-    font-family: 'Marck Script', cursive;
     font-size: 3rem;
-    color: #5E2BFF;
+    color: black;
     margin-bottom: 15px;
 }
 
@@ -73,23 +72,27 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 20%;
     min-width: min-content;
     text-align: center;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 10%;
     padding: 30px 20px 30px 20px;
-    
+    font-family: 'Poiret One', cursive;   
+}
+
+.splash-box p {
+    font-size: 1.25rem;
 }
 
 .button {
     width: 75%;
-    border: 2px solid red;
+    border: 2px solid white;
     margin: 0 auto;
     border-radius: 20px;
-    background-color: #C3423F;
+    background-color: #5762D5;
     color: white;
 }
 
 .button:hover {
-    background-color: #7C2927;
+    background-color: #2933A3;
 }
 
 .button p {
@@ -142,7 +145,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 /* About the Project */
-  .about-box {
+.about {
+    border-top: solid white 1px;
+}  
+
+.about-box {
       width: 90%;
   }
 

@@ -17,13 +17,9 @@ const observer = new IntersectionObserver(entries => {
   });
   
   observer.observe(document.querySelector('#fadein1'));
-  observer.observe(document.querySelector('#fadein2'));
-  observer.observe(document.querySelector('#fadein3'));
-  observer.observe(document.querySelector('#fadein4'));
-  observer.observe(document.querySelector('#fadein5'));
 
 
-  // Number count animation
+  // Number of units count animation
   let count = 0;
   const countObserver = new IntersectionObserver(entries => {
     // Loop over the entries
@@ -53,7 +49,7 @@ const observer = new IntersectionObserver(entries => {
     });
   });
   
-  countObserver.observe(document.querySelector('#about'));
+  countObserver.observe(document.querySelector('#factSection'));
 
 
 
