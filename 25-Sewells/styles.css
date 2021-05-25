@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 
   /* Breakpoint mobile 600px */
 
-  @media (max-width: 576px) { 
+  @media only screen and (max-width: 576px) { 
       .isFlexContainer {
           display: inline-flex;
           flex-direction: column;
