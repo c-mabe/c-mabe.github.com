@@ -188,6 +188,10 @@ and (orientation: portrait) {
           margin-top: 50px;
       }
 
+      #hidden {
+        display: none;
+    }
+
       .fact-box {
         text-align: center;
         background-color: #909590;
