@@ -230,4 +230,10 @@ and (orientation: portrait) {
   .fact-box h3 {
       font-size: 3rem;
   }
+  .navbar-toggler-icon{
+    padding: 30px !important;
+  }
+  .nav-link {
+      font-size: 1.5rem;
+  }
   }
