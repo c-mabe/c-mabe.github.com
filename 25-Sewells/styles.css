@@ -3,11 +3,11 @@ html {
     font-family: 'Open Sans', sans-serif;
     color: white;
     scroll-behavior: smooth;
+    font-size: 18px;
 }
 
 body {
     background-color: #474A48;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -150,6 +150,65 @@ h1, h2, h3, h4, h5, h6 {
   .fact-box:last-child {
       border-right: 0px;
   }
+
+/*Main Section */
+.main {
+    width: 95%;
+    background-color: #909590;
+    margin-left: 2.5%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*Footer */
+.footer {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stickyFooter {
+    position: absolute;
+    bottom: 10px;
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContent {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/* THE PROPOSED DEVELOPMENT */
+
+.theDevelopment {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: white;
+    border-top: 2px solid white;
+}
+
+.devInfo {
+    max-width: 50%;
+    padding: 10px;
+}
+
+
+
+
 
 /* About the Project */
 .about {
