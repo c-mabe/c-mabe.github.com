@@ -394,7 +394,6 @@ and (orientation: portrait) {
 
     #reverse .project-blurb {
         width: 95%;
-        margin-left: 2.5%;
     }
 
     #reverse .project-image {
