@@ -392,7 +392,7 @@ and (orientation: portrait) {
         flex-direction: column;
     }
 
-    #reverse .project-blurb {
+    .reverse-project-blurb {
         width: 95%;
     }
 
