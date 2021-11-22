@@ -340,9 +340,9 @@ and (orientation: portrait) {
         flex-direction: column;
     }
 
-    #reverse .project-blurb {
+    .reverse-project-blurb {
         width: 95%;
-        margin-left: 2.5%;
+        color:white;
     }
 
     #reverse .project-image {
@@ -394,6 +394,7 @@ and (orientation: portrait) {
 
     .reverse-project-blurb {
         width: 95%;
+        color: white;
     }
 
     #reverse .project-image {
